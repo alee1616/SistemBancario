@@ -135,3 +135,9 @@ public class Main {
         return -1;
     }
 }
+
+
+// incluí cuentas de ejemplo para que el sistema sea funcional desde el principio.
+// esto va a permitir demostrar de inmediato las operaciones complejas como las
+// transferencias entre cuentas y el historial de movimientos, sin que usted tenga
+// que esperar a que se registre manualmente cada cliente, así pues lo hice para más fácil.

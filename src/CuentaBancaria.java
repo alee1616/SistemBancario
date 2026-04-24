@@ -36,9 +36,9 @@ public class CuentaBancaria {
         if (monto > 0 && monto <= saldo) {
             saldo -= monto;
             registrarMovimiento("Retiro: -C$" + monto);
-            return true; // Si cumple, deja retirar
+            return true; // si cumple, deja retirar
         }
-        return false; // Si NO cumple (monto > saldo), bloquea el retiro
+        return false; // si este no cumple (monto > saldo), bloquea el retiro
     }
 
     // mejora de transferencia
@@ -52,7 +52,7 @@ public class CuentaBancaria {
         return false;
     }
 
-    // getters para acceder a los atributes privades
+    // getters para acceder a los atributos privados
     public String getCliente() { return cliente; }
     public String getNumeroCuenta() { return numeroCuenta; }
     public double getSaldo() { return saldo; }
